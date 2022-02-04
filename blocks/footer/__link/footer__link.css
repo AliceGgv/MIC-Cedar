@@ -1,0 +1,19 @@
+.footer__link {
+  line-height: 18px;
+  font-size: 18px;
+  color: #1f1f1f;
+}
+
+@media (max-width: 570px) {
+  .footer__link {
+    line-height: 12px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 440px) {
+  .footer__link {
+    line-height: 10px;
+    font-size: 10px;
+  }
+}

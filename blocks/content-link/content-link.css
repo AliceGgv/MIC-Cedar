@@ -1,0 +1,10 @@
+.content-link {
+  transition: 0.3s ease-out;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.content-link:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}

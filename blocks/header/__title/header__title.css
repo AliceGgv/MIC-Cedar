@@ -1,0 +1,17 @@
+.header__title {
+  margin: 0;
+  position: relative;
+  padding-left: 64px;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: 900;
+  z-index: 5;
+}
+
+@media (max-width: 618px) {
+  .header__title {
+    max-width: 300px;
+    line-height: 96px;
+    font-size: 80px;
+  }
+}

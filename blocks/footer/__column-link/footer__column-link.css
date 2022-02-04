@@ -1,0 +1,19 @@
+.footer__column-link {
+  margin-bottom: 10px;
+}
+
+.footer__column-link:last-of-type {
+  margin-bottom: 0;
+}
+
+@media (max-width: 570px) {
+  .footer__column-link {
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 440px) {
+  .footer__column-link {
+    margin-bottom: 2px;
+  }
+}

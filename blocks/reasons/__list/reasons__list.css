@@ -1,0 +1,29 @@
+.reasons__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(230px, 240px));
+  grid-column-gap: 18%;
+  grid-row-gap: 9%;
+  justify-content: center;
+}
+
+@media (max-width: 1400px) {
+  .reasons__list {
+    grid-template-columns: repeat(auto-fit, minmax(230px, 260px));
+    grid-column-gap: 9%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .reasons__list {
+    grid-column-gap: 4%;
+  }
+}
+
+@media (max-width: 541px) {
+  .reasons__list {
+    grid-row-gap: 3%;
+  }
+}

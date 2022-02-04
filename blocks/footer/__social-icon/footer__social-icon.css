@@ -1,0 +1,19 @@
+.footer__social-icon {
+  object-fit: fill;
+  width: 16px;
+  height: 16px;
+}
+
+@media (max-width: 570px) {
+  .footer__social-icon {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+@media (max-width: 440px) {
+  .footer__social-icon {
+    width: 10px;
+    height: 10px;
+  }
+}

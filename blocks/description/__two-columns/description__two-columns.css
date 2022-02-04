@@ -1,0 +1,33 @@
+.description__two-columns {
+  width: calc(100% - 400px);
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(200px, 230px) minmax(800px, 1000px)
+  );
+  gap: 160px;
+}
+
+@media (max-width: 1400px) {
+  .description__two-columns {
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(60px, 80px) minmax(600px, 760px)
+    );
+    width: calc(100% - 300px);
+  }
+}
+
+@media (max-width: 1000px) {
+  .description__two-columns {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 720px) {
+  .description__two-columns {
+    gap: 30px;
+    width: calc(100% - 100px);
+  }
+}

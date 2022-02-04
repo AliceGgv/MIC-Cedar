@@ -1,0 +1,12 @@
+.description__span {
+  font-weight: 600;
+  line-height: 34px;
+  font-size: 24px;
+}
+
+@media (max-width: 720px) {
+  .description__span {
+    line-height: 30px;
+    font-size: 22px;
+  }
+}

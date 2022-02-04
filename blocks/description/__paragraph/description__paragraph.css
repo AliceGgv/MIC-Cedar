@@ -1,0 +1,13 @@
+.description__paragraph {
+  margin: 0 0 30px;
+}
+
+.description__paragraph:last-of-type {
+  margin-bottom: 0;
+}
+
+@media (max-width: 720px) {
+  .description__paragraph {
+    margin-bottom: 10px;
+  }
+}

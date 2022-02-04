@@ -1,0 +1,23 @@
+.description__brief {
+  max-width: 149px;
+  line-height: 32px;
+  font-size: 22px;
+  font-weight: normal;
+  color: #8d333e;
+  margin: 0;
+}
+
+@media (max-width: 1000px) {
+  .description__brief {
+    max-width: 600px;
+    line-height: 40px;
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 720px) {
+  .description__brief {
+    line-height: 36px;
+    font-size: 32px;
+  }
+}

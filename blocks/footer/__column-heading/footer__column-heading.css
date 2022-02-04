@@ -1,0 +1,23 @@
+.footer__column-heading {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+@media (max-width: 570px) {
+  .footer__column-heading {
+    line-height: 14px;
+    font-size: 14px;
+    padding-bottom: 8px;
+  }
+}
+
+@media (max-width: 440px) {
+  .footer__column-heading {
+    line-height: 12px;
+    font-size: 12px;
+    padding-bottom: 4px;
+  }
+}

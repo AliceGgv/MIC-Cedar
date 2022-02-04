@@ -1,0 +1,14 @@
+.cards__info-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 16px 18px 0;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #a1a68b;
+}
+
+.cards__info-holder:last-of-type {
+  margin-bottom: 32px;
+  border-bottom: 0;
+  padding-bottom: 0;
+}

@@ -1,0 +1,11 @@
+.cards {
+  padding-top: 100px;
+  margin: 0 auto;
+  margin-bottom: -301px;
+}
+
+@media (max-width: 1000px) {
+  .cards {
+    margin-bottom: -1030px;
+  }
+}

@@ -1,0 +1,14 @@
+.description__main-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+@media (max-width: 720px) {
+  .description__main-text {
+    line-height: 30px;
+    font-size: 20px;
+  }
+}

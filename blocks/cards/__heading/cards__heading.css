@@ -1,0 +1,10 @@
+.cards__heading {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.005em;
+  color: #8d333e;
+  margin: 0;
+  padding-top: 2px;
+}
