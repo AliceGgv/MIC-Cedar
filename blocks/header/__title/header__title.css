@@ -15,3 +15,9 @@
     font-size: 80px;
   }
 }
+
+@media (max-width: 440px) {
+  .header__title {
+    padding-left: 34px;
+  }
+}

@@ -15,9 +15,16 @@
 
 @media (max-width: 440px) {
   .header__square-pic {
-    right: -90px;
+    right: -100px;
+    width: 400px;
+    height: 400px;
+    bottom: 180px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header__square-pic {
     width: 300px;
     height: 300px;
-    bottom: 240px;
   }
 }
